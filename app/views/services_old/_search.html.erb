@@ -1,0 +1,30 @@
+<div class="table-responsive">
+  <div class="divTableBodyWrapper">
+    <div class="divTableHeading">
+      <div class="divTableRow">
+
+        <div class="divTableCell">
+          <h1>Service</h1>
+        </div>
+        <div class="divTableCell">
+        </div>
+      </div>
+
+      <%= form_with( url: new_service_path, method: :get, :local => true) do %>
+        <div class="divTableRow">
+          <div class="divTableCell">
+            <div class="divTableHead"><%= label_tag(:ccs_service_id, "Service Id") %>
+            </div>
+          </div>
+          <div class="divTableCell">
+            <div class="divTableHead">
+              <%= text_field_tag("service[ccs_service_id]") %>
+            </div>
+          </div>
+          <div class="divTableCell"></div>
+          <div class="divTableCell"><%= submit_tag("Search") %></div>
+        </div>
+      <%end %>
+    </div>
+  </div>
+</div>

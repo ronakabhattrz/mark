@@ -1,0 +1,27 @@
+<%= form_with(model: service, local: true) do |form| %>
+  <% if service.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(service.errors.count, "error") %> prohibited this service from being saved:</h2>
+
+      <ul>
+      <% service.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="form-group mb-2">
+    <%= form.label :ccs_service_id, class: "col-sm-3 col-form-label" %>
+    <%= form.text_field :ccs_service_id, readonly: true %>
+  </div>
+  <!-- <div class="form-group mb-2">
+    <%#= form.label :api_dom, class: "col-sm-3 col-form-label" %>
+    <%#= form.text_field :api_dom %>
+  </div> -->
+
+  <%= format_hash(@service_profile.to_hash, '', @readonly = false) %>
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

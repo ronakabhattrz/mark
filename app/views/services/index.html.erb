@@ -1,0 +1,43 @@
+<div class="container my-3">
+  <div id="accordion">
+    <p id="notice"><%= notice %></p>
+    <p id="alert"><%= alert %></p>
+    <div class="card">
+      <div class="card-header">
+        <a class="card-link" data-toggle="collapse" href="#collapseOne">
+          Service Profile
+        </a>
+      </div>
+      <div id="collapseOne" class="collapse show" data-parent="#accordion">
+        <div class="card-body">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>Ccs service</th>
+                <th colspan="3">Action</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <% @services.each do |service| %>
+                <tr>
+                  <td><%= service.ccs_service_id %></td>
+                  <!-- <td><%#= link_to 'Show', service %></td> -->
+                  <!-- <td><%#= link_to 'Edit', edit_service_path(service) %></td> -->
+                  <td><%= link_to 'Edit', services_path(id: service, type: "edit") %></td>
+                  <td><%= link_to 'Destroy', service, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+                </tr>
+              <% end %>
+            </tbody>
+          </table>
+      
+          <br>
+          <%= render partial: 'search' %>
+          <% if @service_profile.present? %>
+            <%= render partial: 'new' %>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

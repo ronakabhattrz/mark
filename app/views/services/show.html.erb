@@ -1,0 +1,18 @@
+<div class="container">
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Ccs service:</strong>
+  <%= @service.ccs_service_id %>
+</p>
+
+<p>
+  <strong>Api dom:</strong>
+  <%= @service.api_dom %>
+</p>
+
+<%= link_to 'Edit', edit_service_path(@service) %> |
+<%= link_to 'Back', services_path %>
+
+<%= format_hash(@service_profile.to_hash, '', @readonly = true) %>
+</div>

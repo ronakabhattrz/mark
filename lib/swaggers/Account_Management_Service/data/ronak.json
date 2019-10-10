@@ -1,0 +1,58 @@
+{
+  "d": {
+    "results": [
+      {
+        "serviceID": "Online",
+        "serviceType": "Sell",
+        "startDate": "2018-04-22",
+        "endDate": "9999-12-3",
+        "updatedSince": null,
+        "ACECQARegistrationCode": "Ron-123",
+        "ACECQAExemptionReason": null,
+        "numberOfWeeksPerYear": "0",
+        "numberOfWeeksPerYearDateOfEvent": "2018-04-24",
+        "serviceName": null,
+        "serviceNameDateOfEvent": null,
+        "Address": {
+          "results": [
+            {
+              "dateOfEvent": "0000-00-00",
+              "type": "ZPHYSICAL",
+              "streetLine1": "101 Long Rd",
+              "streetLine2": "adddress2",
+              "suburb": "BELMONT",
+              "state": "VIC",
+              "postcode": "3216",
+              "startDate": "2018-04-24",
+              "endDate": "9999-12-31"
+            },
+            {
+              "dateOfEvent": "0000-00-00",
+              "type": "Resid",
+              "streetLine1": "PO Box 111",
+              "streetLine2": "adddress2",
+              "suburb": "GEELONG",
+              "state": "VIC",
+              "postcode": "3220",
+              "startDate": "2018-04-24",
+              "endDate": "9999-12-31"
+            }
+          ]
+        },
+        "CCSApproval": {
+          "results": [
+            {
+              "reason": "Less",
+              "status": "CURR",
+              "startDate": "2018-01-01",
+              "endDate": "9999-12-31",
+              "cancellationRequest": false,
+              "cancellationRequestDateOfEvent": "0000-00-00",
+              "reasonForRequest": "Work"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

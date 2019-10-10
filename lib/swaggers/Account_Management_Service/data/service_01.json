@@ -1,0 +1,128 @@
+{
+  "d": {
+    "results": [
+      {
+        "__metadata": {
+          "id": "http://test.1.rsp.example/rest/ccs/v1.0/serviceprofiles('service_01')",
+          "uri": "http://test.1.rsp.example/rest/ccs/v1.0/serviceprofiles('service_01')",
+          "type": "AccountManagement.ServiceProfile"
+        },
+        "serviceID": "service_01",
+        "serviceType": "ZCDC",
+        "startDate": "0000-00-00",
+        "endDate": "0000-00-00",
+        "updatedSince": "0000-00-00T00:00:00",
+        "ACECQARegistrationCode": "",
+        "ACECQAExemptionReason": "UVDT",
+        "numberOfWeeksPerYear": 0,
+        "numberOfWeeksPerYearDateOfEvent": "2018-04-24",
+        "serviceName": "",
+        "serviceNameDateOfEvent": "0000-00-00",
+        "ServiceStopOperating": {
+          "__deferred": {
+            "uri": "http://test.1.rsp.example/rest/ccs/v1.0/serviceprofiles('service_01')/ServiceStopOperating"
+          }
+        },
+        "ChildCarePlaces": {
+          "__deferred": {
+            "uri": "http://test.1.rsp.example/rest/ccs/v1.0/serviceprofiles('service_01')/ChildCarePlaces"
+          }
+        },
+        "ServiceTemporarilyCeasing": {
+          "__deferred": {
+            "uri": "http://test.1.rsp.example/rest/ccs/v1.0/serviceprofiles('service_01')/ServiceTemporarilyCeasing"
+          }
+        },
+        "ServiceLocationOfRecord": {
+          "__deferred": {
+            "uri": "http://test.1.rsp.example/rest/ccs/v1.0/serviceprofiles('service_01')/ServiceLocationOfRecord"
+          }
+        },
+        "ExternalManagement": {
+          "__deferred": {
+            "uri": "http://test.1.rsp.example/rest/ccs/v1.0/serviceprofiles('service_01')/ExternalManagement"
+          }
+        },
+        "Trustee": {
+          "__deferred": {
+            "uri": "http://test.1.rsp.example/rest/ccs/v1.0/serviceprofiles('service_01')/Trustee"
+          }
+        },
+        "OperationAcrossBorders": {
+          "__deferred": {
+            "uri": "http://test.1.rsp.example/rest/ccs/v1.0/serviceprofiles('service_01')/OperationAcrossBorders"
+          }
+        },
+        "Fees": {
+          "__deferred": {
+            "uri": "http://test.1.rsp.example/rest/ccs/v1.0/serviceprofiles('service_01')/Fees"
+          }
+        },
+        "Financial": {
+          "__deferred": {
+            "uri": "http://test.1.rsp.example/rest/ccs/v1.0/serviceprofiles('service_01')/Financial"
+          }
+        },
+        "Contact": {
+          "__deferred": {
+            "uri": "http://test.1.rsp.example/rest/ccs/v1.0/serviceprofiles('service_01')/Contact"
+          }
+        },
+        "Address": {
+          "results": [
+            {
+              "dateOfEvent": "0000-00-00",
+              "type": "ZPHYSICAL",
+              "streetLine1": "101 Long Rd",
+              "streetLine2": "",
+              "suburb": "BELMONT",
+              "state": "VIC",
+              "postcode": "3216",
+              "startDate": "2018-04-24",
+              "endDate": "9999-12-31"
+            },
+            {
+              "dateOfEvent": "0000-00-00",
+              "type": "ZPOSTAL",
+              "streetLine1": "PO Box 111",
+              "streetLine2": "",
+              "suburb": "GEELONG",
+              "state": "VIC",
+              "postcode": "3220",
+              "startDate": "2018-04-24",
+              "endDate": "9999-12-31"
+            }
+          ]
+        },
+        "CCSApproval": {
+          "results": [
+            {
+              "reason": "",
+              "status": "CURR",
+              "startDate": "2018-01-01",
+              "endDate": "9999-12-31",
+              "cancellationRequest": false,
+              "cancellationRequestDateOfEvent": "0000-00-00",
+              "reasonForRequest": ""
+            }
+          ]
+        },
+        "ServiceName": {
+          "__deferred": {
+            "uri": "http://test.1.rsp.example/rest/ccs/v1.0/serviceprofiles('service_01')/ServiceName"
+          }
+        },
+        "Other": {
+          "__deferred": {
+            "uri": "http://test.1.rsp.example/rest/ccs/v1.0/serviceprofiles('service_01')/Other"
+          }
+        },
+        "SupportingDocuments": {
+          "__deferred": {
+            "uri": "http://test.1.rsp.example/rest/ccs/v1.0/serviceprofiles('service_01')/SupportingDocuments"
+          }
+        }
+      }
+    ]
+  }
+}
